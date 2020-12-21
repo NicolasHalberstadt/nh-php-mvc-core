@@ -4,15 +4,15 @@
 * Time: 13:39
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
-use app\core\db\DbModel;
+use nicolashalberstadt\phpmvc\db\DbModel;
 
 /**
  * Class UserModel
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 abstract class UserModel extends DbModel
 {

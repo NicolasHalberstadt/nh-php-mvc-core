@@ -4,16 +4,16 @@
 * Time: 13:52
 */
 
-namespace app\core\middlewares;
+namespace nicolashalberstadt\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exceptions\ForbiddenException;
+use nicolashalberstadt\phpmvc\Application;
+use nicolashalberstadt\phpmvc\exceptions\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\middlewares
+ * @package nicolashalberstadt\phpmvc\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

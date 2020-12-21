@@ -4,13 +4,13 @@
 * Time: 19:25
 */
 
-namespace app\core\form;
+namespace nicolashalberstadt\phpmvc\form;
 
 /**
  * Class TextareaField
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\form
+ * @package nicolashalberstadt\phpmvc\form
  */
 class TextareaField extends BaseField
 {

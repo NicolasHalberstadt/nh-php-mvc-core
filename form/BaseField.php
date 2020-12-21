@@ -4,15 +4,15 @@
 * Time: 19:15
 */
 
-namespace app\core\form;
+namespace nicolashalberstadt\phpmvc\form;
 
-use app\core\Model;
+use nicolashalberstadt\phpmvc\Model;
 
 /**
  * Class BaseField
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\form
+ * @package nicolashalberstadt\phpmvc\form
  */
 abstract class BaseField
 {

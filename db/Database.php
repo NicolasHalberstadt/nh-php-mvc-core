@@ -4,15 +4,15 @@
 * Time: 16:36
 */
 
-namespace app\core\db;
+namespace nicolashalberstadt\phpmvc\db;
 
-use app\core\Application;
+use nicolashalberstadt\phpmvc\Application;
 
 /**
  * Class Database
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 class Database
 {

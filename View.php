@@ -4,13 +4,13 @@
 * Time: 18:52
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
 /**
  * Class View
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 class View
 {

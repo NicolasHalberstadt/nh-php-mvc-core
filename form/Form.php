@@ -4,15 +4,15 @@
 * Time: 16:00
 */
 
-namespace app\core\form;
+namespace nicolashalberstadt\phpmvc\form;
 
-use app\core\Model;
+use nicolashalberstadt\phpmvc\Model;
 
 /**
  * Class Form
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\form
+ * @package nicolashalberstadt\phpmvc\form
  */
 class Form
 {

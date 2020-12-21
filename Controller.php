@@ -4,15 +4,15 @@
 * Time: 12:06
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use nicolashalberstadt\phpmvc\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 class Controller
 {

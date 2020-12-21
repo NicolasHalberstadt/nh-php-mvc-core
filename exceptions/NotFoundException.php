@@ -4,13 +4,13 @@
 * Time: 18:46
 */
 
-namespace app\core\exceptions;
+namespace nicolashalberstadt\phpmvc\exceptions;
 
 /**
  * Class NotFoundException
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\exceptions
+ * @package nicolashalberstadt\phpmvc\exceptions
  */
 class NotFoundException extends \Exception
 {

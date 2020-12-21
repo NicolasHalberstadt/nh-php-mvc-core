@@ -4,15 +4,15 @@
 * Time: 09:12
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
-use app\core\exceptions\NotFoundException;
+use nicolashalberstadt\phpmvc\exceptions\NotFoundException;
 
 /**
  * Class Router
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package App\core
+ * @package nicolashalberstadt\phpmvc
  */
 class Router
 {

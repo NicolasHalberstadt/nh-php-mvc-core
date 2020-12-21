@@ -4,13 +4,13 @@
 * Time: 10:34
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
 /**
  * Class Response
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 class Response
 {

@@ -4,10 +4,10 @@
 * Time: 09:12
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use nicolashalberstadt\phpmvc\db\Database;
+use nicolashalberstadt\phpmvc\db\DbModel;
 use app\models\User;
 use Exception;
 
@@ -15,7 +15,7 @@ use Exception;
  * Class Application
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package App\core
+ * @package nicolashalberstadt\phpmvc
  */
 class Application
 {

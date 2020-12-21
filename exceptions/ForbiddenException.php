@@ -4,13 +4,13 @@
 * Time: 13:57
 */
 
-namespace app\core\exceptions;
+namespace nicolashalberstadt\phpmvc\exceptions;
 
 /**
  * Class ForbiddenException
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\exceptions
+ * @package nicolashalberstadt\phpmvc\exceptions
  */
 class ForbiddenException extends \Exception
 {

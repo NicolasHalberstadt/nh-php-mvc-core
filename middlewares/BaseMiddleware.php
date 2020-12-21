@@ -4,13 +4,13 @@
 * Time: 13:50
 */
 
-namespace app\core\middlewares;
+namespace nicolashalberstadt\phpmvc\middlewares;
 
 /**
  * Class BaseMiddleware
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core\middlewares
+ * @package nicolashalberstadt\phpmvc\middlewares
  */
 abstract class BaseMiddleware
 {

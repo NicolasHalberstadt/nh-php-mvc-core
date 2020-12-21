@@ -4,13 +4,13 @@
 * Time: 15:24
 */
 
-namespace app\core;
+namespace nicolashalberstadt\phpmvc;
 
 /**
  * Class Model
  *
  * @author Nicolas Halberstadt <halberstadtnicolas@gmail.com>
- * @package app\core
+ * @package nicolashalberstadt\phpmvc
  */
 abstract class Model
 {

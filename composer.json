@@ -1,10 +1,15 @@
 {
-    "name": "nicolashalberstadt/php-mvc-core",
-    "authors": [
-        {
-            "name": "Nicolas Halberstadt",
-            "email": "halberstadtnicolas@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "nicolashalberstadt/php-mvc-core",
+  "authors": [
+    {
+      "name": "Nicolas Halberstadt",
+      "email": "halberstadtnicolas@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "nicolashalberstadt\\phpmvc": "."
+    }
+  },
+  "require": {}
 }
