@@ -8,7 +8,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "nicolashalberstadt\\phpmvc": "."
+      "nicolashalberstadt\\phpmvc\\": "."
     }
   },
   "require": {}
