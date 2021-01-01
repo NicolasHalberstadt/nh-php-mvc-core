@@ -59,6 +59,16 @@ abstract class DbModel extends Model
         return true;
     }
 
+    public function delete()
+    {
+        $tableName = $this->tableName();
+        $primaryKey = $this->primaryKey();
+        $statement = self::prepare("DELETE FROM $tableName WHERE $primaryKey = ?");
+        $params[] = $this->{$primaryKey};
+        $statement->execute($params);
+        return true;
+    }
+
     public static function findOne($where)
     {
         $tableName = static::tableName();
