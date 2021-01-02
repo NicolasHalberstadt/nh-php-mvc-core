@@ -83,10 +83,10 @@ abstract class DbModel extends Model
         return $statement->fetchObject(static::class);
     }
 
-    public static function findAll()
+    public static function findAll($orderBy = 'created_at')
     {
         $tableName = static::tableName();
-        $statement = self::prepare("SELECT * FROM $tableName");
+        $statement = self::prepare("SELECT * FROM $tableName ORDER BY $orderBy DESC");
         $statement->execute();
         return $statement->fetchAll();
     }
