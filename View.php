@@ -28,7 +28,12 @@ class View
         $layoutContent = $this->layoutContent();
         return str_replace('{{content}}', $viewContent, $layoutContent);
     }
-
+    
+    public function clean($string)
+    {
+        return htmlentities($string);
+    }
+    
     protected function layoutContent()
     {
         $layout = Application::$app->layout;
