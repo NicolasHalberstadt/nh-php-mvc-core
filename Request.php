@@ -14,6 +14,17 @@ namespace nicolashalberstadt\phpmvc;
  */
 class Request
 {
+    public $get;
+    public $post;
+    public $env;
+    
+    public function __construct($get, $post, $env)
+    {
+        $this->get = $get;
+        $this->post = $post;
+        $this->cookie = $env;
+    }
+    
     public function getPath()
     {
         $path = $_SERVER['REQUEST_URI'] ?? '/';
